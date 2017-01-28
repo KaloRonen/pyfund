@@ -6,6 +6,7 @@ sensor_heat_data = pd.read_table("C:\Code\Data\sensors_heat_data_file.txt", sep=
 
 all_data = sensor_positions.add(sensor_heat_data, fill_value=0)
 print(all_data)
+print("ronenkalo")
 
 
 
